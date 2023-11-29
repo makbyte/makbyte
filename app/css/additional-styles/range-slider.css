@@ -1,6 +1,7 @@
 /* Range slider */
 :root {
     --range-thumb-size: 36px;
+    scroll-behavior: smooth;
 }
 
 input[type=range] {
