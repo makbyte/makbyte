@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
-import makByteLogo from '../../public/images/logo/LogoFiles/Web/svg/Blacklogo.svg'
+import makByteLogo from '../../public/images/logo/Black logo - no background.png'
 import Image from 'next/image'
 
 export default function Header() {

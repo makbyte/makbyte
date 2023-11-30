@@ -30,9 +30,12 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— MAK {byte} exceeded our expectations! Their tailored solutions perfectly aligned with our business objectives. Their client-centric approach and seamless coordination ensured our project's success, showcasing unparalleled expertise in software development.</blockquote>
+              <blockquote className="text-lg text-gray-400 grow"> -  Mak Byte's dedication to finding a quick and efficient solution to our problem was really admirable.
+                On our website, we ran into a complicated payment problem that hindered our services.
+                They come as saviour, with the quick diagnosis and demonstration of bug, our platform was again up
+                and running without a hitch, and their professionalism and dedication were clear. We are incredibly appreciative of their proactive assistance, which has allowed us to keep offering our pilgrims first-rate services. We wholeheartedly endorse Mak Byte because to their outstanding technical expertise and constant commitment to client happiness.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                <cite className="text-gray-200 not-italic">Roshan Tours</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Nafis Ahmed</a>
               </div>
             </div>
 
