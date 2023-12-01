@@ -5,7 +5,7 @@ export default function Features() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Why choose MAK { byte }</h2>
+            <h2 className="h2 mb-4">Why work with <br className="sm:hidden"/>MAK { byte }</h2>
           </div>
 
           {/* Items */}

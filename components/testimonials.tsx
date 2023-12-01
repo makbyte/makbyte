@@ -21,7 +21,7 @@ export default function Testimonials() {
           <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
 
             {/* 1st testimonial */}
-            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
+            <div className="rounded-lg shadow-mak flex flex-col h-full p-6 bg-gray-800 " data-aos="fade-up">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
                   {/*  */}
@@ -41,7 +41,7 @@ export default function Testimonials() {
             </div>
 
             {/* 2nd testimonial */}
-            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="200">
+            <div className="rounded-lg shadow-mak flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="200">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
                   <Image className="rounded-full" src={TestimonialImage02} width={48} height={48} alt="Testimonial 02" />
@@ -57,7 +57,7 @@ export default function Testimonials() {
             </div>
 
             {/* 3rd testimonial */}
-            <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="400">
+            <div className="rounded-lg shadow-mak flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="400">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
                   <Image className="rounded-full" src={TestimonialImage01} width={48} height={48} alt="Testimonial 01" />

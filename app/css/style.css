@@ -14,6 +14,10 @@
     .rtl {
         direction: rtl;
     }
+
+    .shadow-mak {
+        box-shadow: rgba(0, 0, 0, 2.35) 0px 5px 15px;
+}
 }
 
 /* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
