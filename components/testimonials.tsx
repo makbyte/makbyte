@@ -31,10 +31,7 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow"> -  Mak {byte}'s dedication to finding a quick and efficient solution to our problem was really admirable.
-                On our website, we ran into a complicated payment problem that hindered our services.
-                They come as saviour, with the quick diagnosis and demonstration of bug, our platform was again up
-                and running without a hitch, and their professionalism and dedication were clear. We are incredibly appreciative of their proactive assistance, which has allowed us to keep offering our pilgrims first-rate services. We wholeheartedly endorse Mak Byte because to their outstanding technical expertise and constant commitment to client happiness.</blockquote>
+              <blockquote className="text-lg text-gray-400 grow"> -  Mak Byte's swift problem-solving skills were impressive. Facing a complex payment issue on our website, their rapid diagnosis and solution restored our platform seamlessly. Their professionalism and dedication shone through, ensuring uninterrupted top-tier services for our clients. We highly recommend Mak Byte for their exceptional technical prowess and unwavering commitment to customer satisfaction.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Roshan Tours</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Nafis Ahmed</a>
               </div>

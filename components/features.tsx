@@ -19,7 +19,7 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
               <h4 className="h4 mb-2">Expertise</h4>
-              <p className="text-lg text-gray-400 text-center">Our team comprises top-tier developers and consultants adept at leveraging the latest technologies and industry best practices..</p>
+              <p className="text-lg text-gray-400 text-center">Our team comprises top-tier developers and consultants adept at leveraging the latest technologies and industry best practices.</p>
             </div>
 
             {/* 2nd item */}
@@ -30,7 +30,7 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
               <h4 className="h4 mb-2">Tailored Solutions</h4>
-              <p className="text-lg text-gray-400 text-center">Every project undertaken by MAK {byte} is approached with a focus on customization, ensuring that the end product perfectly aligns with your business objectives.`</p>
+              <p className="text-lg text-gray-400 text-center">Every project undertaken by us is approached with a focus on customization, ensuring that the end product perfectly aligns with your business objectives.</p>
             </div>
 
             {/* 3rd item */}
