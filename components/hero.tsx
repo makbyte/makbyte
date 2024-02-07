@@ -47,7 +47,8 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-4xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Elevate Your Digital Future: Pioneering Excellence in Every Byte
+              {/* Elevate Your Digital Future: */}
+               Pioneering Excellence in Every Byte
             </h1>
             <p
               className="text-xl text-gray-400 mb-8"
