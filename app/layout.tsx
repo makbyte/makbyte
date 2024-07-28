@@ -25,7 +25,11 @@ const architects_daughter = Architects_Daughter({
   display: "swap",
 });
 
-export const promoData: any = {
+export interface promoType {
+  [key: string]: string;
+}
+
+export const promoData: promoType = {
   title: 'Revolutionizing Enterprise Solutions with AI-Powered Systems by MAK {Byte}',
   description: 'In today\'s fast-paced business world, managing data, optimizing processes, and enhancing efficiency are crucial. Stay ahead with MAK {Byte}\'s AI-powered solutions, letting AI do the work for you.'
 }
@@ -52,7 +56,7 @@ export default function RootLayout({
       >
         <div className="flex flex-col min-h-screen overflow-hidden">
           <main className="grow">
-            <PromoBar {...promoData}/>
+            <PromoBar title={promoData?.title} description={promoData?.description} />
             <Header />
             <PageIllustration />
             {children}
