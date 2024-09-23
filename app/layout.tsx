@@ -30,16 +30,17 @@ export interface promoType {
 }
 
 export const promoData: promoType = {
-  title: 'Revolutionizing Enterprise Solutions with AI-Powered Systems by MAK {Byte}',
-  description: 'In today\'s fast-paced business world, managing data, optimizing processes, and enhancing efficiency are crucial. Stay ahead with MAK {Byte}\'s AI-powered solutions, letting AI do the work for you.'
-}
+  title:
+    "Revolutionizing Enterprise Solutions with AI-Powered Systems by MAK {Byte}",
+  description:
+    "In today's fast-paced business world, managing data, optimizing processes, and enhancing efficiency are crucial. Stay ahead with MAK {Byte}'s AI-powered solutions, letting AI do the work for you.",
+};
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-
   useEffect(() => {
     AOS.init({
       once: true,
@@ -56,7 +57,10 @@ export default function RootLayout({
       >
         <div className="flex flex-col min-h-screen overflow-hidden">
           <main className="grow">
-            <PromoBar title={promoData?.title} description={promoData?.description} />
+            <PromoBar
+              title={promoData?.title}
+              description={promoData?.description}
+            />
             <Header />
             <PageIllustration />
             {children}
