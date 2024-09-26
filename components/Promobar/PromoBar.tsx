@@ -1,24 +1,27 @@
-import React from 'react';
-import styles from './PromoBar.module.css';
+import React from "react";
+import styles from "./PromoBar.module.css";
+import Link from "next/link";
 
 type PromoBar = {
-  title: string
-  description: string
-}
+  title: string;
+  description: string;
+};
 
-const PromoBar: React.FC<PromoBar> = (props: PromoBar) => { 
-  const { title, description } = props
-  const message = `${title} : ${description}`
+const PromoBar: React.FC<PromoBar> = (props: PromoBar) => {
+  const { title, description } = props;
+  const message = `${title} : ${description}`;
 
   return (
     <>
-      <div className={styles.promoBar}>
-        <div className={styles.scrollingText}>
-          <p>{message}</p>
+      <Link href="/ai-services">
+        <div className={styles.promoBar}>
+          <div className={styles.scrollingText}>
+            <p>{message}</p>
+          </div>
         </div>
-      </div>
+      </Link>
     </>
-  )
-}
+  );
+};
 
-export { PromoBar }
+export { PromoBar };
