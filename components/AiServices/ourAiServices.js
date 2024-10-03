@@ -6,37 +6,38 @@ import { FaShapes } from "react-icons/fa";
 const cardsData = [
   {
     icon: <MdComputer className="w-28 h-28 text-purple-600" />,
-    heading: "Co-Create New Digital Business Models",
+    heading: "Collaboratively Build New Digital Business Models",
     description:
-      "Develop Omni-channel, always-on platforms powered by AI apps and software capabilities.",
+      "Develop always-connected platforms enhanced by AI-driven applications and software solutions.",
   },
   {
     icon: <FaCircleNotch className="w-28 h-28 text-purple-600" />,
-    heading: "Reimagine Work and Business Processes",
+    heading: "Redefine Workflows and Business Operations",
     description:
-      "Enhance productivity and streamline operations with advanced AI agents.",
+      "Boost efficiency and optimize processes using intelligent AI-powered agents.",
   },
   {
     icon: <FaShapes className="w-28 h-28 text-purple-600" />,
-    heading: "Enable Superior Decision Making",
+    heading: "Facilitate Smarter Decision Making",
     description:
-      "Empower better decisions with high-quality data at speed using AI engineering capabilities.",
+      "Enable faster, more informed decisions by leveraging high-quality data through AI engineering.",
   },
 ];
+
 export default function OurAiServices() {
   return (
     // <div className="bg-white">
     <div className=" py-24 sm:py-32 ">
       <div className="mx-auto max-w-4xl text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
-          Accelerating
-          <strong className="text-purple-600"> Enterprise Velocity</strong> with
+          Driving
+          <strong className="text-purple-600"> Enterprise Agility</strong> with
           AI
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-400">
-          At MAK Byte, our mission is to accelerate enterprise business strategy
-          through AI-powered digital and data capabilities. We leverage AI to
-          accelerate enterprise velocity in three key ways:
+          At MAK Byte, our mission is to fast-track enterprise business
+          strategies by harnessing AI-driven digital and data capabilities. We
+          utilize AI to enhance enterprise agility in three core areas:
         </p>
         {/* <div className="mt-10 flex items-center justify-center gap-x-6">
           <a

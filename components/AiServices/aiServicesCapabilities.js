@@ -8,39 +8,39 @@ import { IoMdCloudUpload } from "react-icons/io";
 const CapabilitiesData = [
   {
     icon: <LuBrainCircuit className="w-24 h-24 text-purple-600 mb-3" />,
-    heading: "AI Strategy and Consulting",
+    heading: "AI Consulting and Strategic Planning",
     description: [
-      "AI Strategy",
-      "Enterprise AI Foundation",
-      "AI Vision Workshop",
+      "AI Strategy Development",
+      "Establishing Enterprise AI Foundations",
+      "AI Vision Workshops",
     ],
   },
   {
     icon: <BsGraphUp className="w-24 h-24 text-purple-600 mb-3" />,
-    heading: "Accelerated Data and Digital Roadmap",
+    heading: "Rapid Data and Digital Transformation",
     description: [
-      "Digital & Cloud Acceleration with AI",
-      "Data Engineering with AI",
-      "Application Development for AI",
+      "Digital & Cloud Transformation with AI",
+      "AI-Enhanced Data Engineering",
+      "AI Application Development",
     ],
   },
   {
     icon: <IoMdCloudUpload className="w-24 h-24 text-purple-600 mb-3" />,
-    heading: "AI-Native Product Engineering",
+    heading: "AI-Enhanced Product Development",
     description: [
-      "AI Capability Integration",
-      "Development of AI-Native Platforms",
-      // "AI Vision Workshop",
+      "Integration of AI Capabilities",
+      "Development of AI-Driven Platforms",
+      // "AI Vision Workshops",
     ],
   },
 ];
+
 const AiServicesCapabilities = () => {
   return (
     <div>
       <div className="text-center">
         <h3 className="mb-3 font-bold text-4xl">
-          Our <strong className="text-purple-600">AI-Native</strong>
-          Capabilities
+          Our <strong className="text-purple-600">AI-Driven</strong> Solutions
         </h3>
       </div>
       <div className="mt-16 grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">

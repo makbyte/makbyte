@@ -14,13 +14,18 @@ export default function AiServicesHero() {
         data-aos="fade-right"
       >
         <div className="max-[1024px]:text-center">
-          <h3 className="mb-3 font-bold text-4xl">
-            Accelerate Your Strategy with AI-Powered{" "}
-            <strong className="text-purple-600">Enterprise Velocity</strong>
-          </h3>
-          <p className="text-lg text-gray-400 mb-4">
-            Winning in a fast changing world demands enterprise velocity – the
-            capability to develop and implement strategy in swift iterations
+          <h1 className="mb-3 font-bold h1">
+            Boost Your Strategy with AI-Driven
+            <strong className="text-purple-600"> Enterprise Speed</strong>
+          </h1>
+          <p
+            className="text-xl text-gray-400 mb-8"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            Succeeding in a rapidly changing world requires enterprise agility –
+            the ability to quickly develop and execute strategies through rapid
+            iterations.
           </p>
         </div>
       </div>

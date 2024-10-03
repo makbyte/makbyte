@@ -10,7 +10,7 @@ import AiServicesConnectUs from "@/components/AiServices/aiServicesConnectUs";
 const AiServices = () => {
   return (
     // <div className="h-screen">
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-28">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-32">
       <AiServicesHero />
       <AiServicesBlog />
       <OurAiServices />

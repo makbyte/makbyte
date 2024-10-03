@@ -5,44 +5,47 @@ import { FaEquals } from "react-icons/fa";
 import { MdYoutubeSearchedFor } from "react-icons/md";
 import { FaRocket } from "react-icons/fa6";
 
-const uniqueCardData = [
+const distinctiveCardDetails = [
   {
     icon: <HiOutlineLightBulb className="w-20 h-20 text-purple-600" />,
-    heading: "First Principles Mindset",
-    desc: ["Ideas matter more than blueprints."],
+    title: "Foundational Principles Approach",
+    description: ["Concepts hold greater significance than plans."],
   },
   {
     icon: <FaEquals className="w-20 h-20 text-purple-600" />,
-    heading: "Bias for Action",
-    desc: ["Iterative solution building versus continuous analysis."],
+    title: "Preference for Action",
+    description: [
+      "Building solutions iteratively instead of endless evaluation.",
+    ],
   },
   {
     icon: <MdYoutubeSearchedFor className="w-20 h-20 text-purple-600" />,
-    heading: "Obsession for Impact",
-    desc: ["Laser-sharp focus on business metrics."],
+    title: "Commitment to Impact",
+    description: ["Focused attention on performance metrics."],
   },
   {
     icon: <FaRocket className="w-20 h-20 text-purple-600" />,
-    heading: "Innovation at Scale",
-    desc: ["Latest technology with enterprise-grade engineering."],
+    title: "Scaling Innovation",
+    description: ["Cutting-edge technology with robust engineering."],
   },
 ];
-const UniqueSection = () => {
+
+const DistinctiveSection = () => {
   return (
     <div className="py-20 mt-6">
       <div className="text-center">
         <h2 className="mb-3 font-bold text-4xl text-gray-200 ">
-          What Makes Us Unique.
+          What Sets Us Apart.
         </h2>
       </div>
       <div className="mt-16 grid gap-8 lg:grid-cols-2 lg:gap-6 items-start lg:max-w-none ">
-        {uniqueCardData.map((item, i) => {
+        {distinctiveCardDetails.map((element, index) => {
           return (
             <ReusableCard
-              key={i}
-              icon={item.icon}
-              heading={item.heading}
-              description={item.desc}
+              key={index}
+              icon={element.icon}
+              heading={element.title}
+              description={element.description}
               cardStyle="items-center gap-4"
               mediaStyle="flex-col items-start"
             />
@@ -53,4 +56,4 @@ const UniqueSection = () => {
   );
 };
 
-export default UniqueSection;
+export default DistinctiveSection;
