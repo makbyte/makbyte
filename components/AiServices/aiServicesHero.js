@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import aiHero from "@/public/images/aiHero.webp";
+import aiHero from "@/public/images/Hero.webp";
 
 export default function AiServicesHero() {
   return (
@@ -15,17 +15,19 @@ export default function AiServicesHero() {
       >
         <div className="max-[1024px]:text-center">
           <h1 className="mb-3 font-bold h1">
-            Boost Your Strategy with AI-Driven
-            <strong className="text-purple-600"> Enterprise Speed</strong>
+            Unlock the Power of AI for
+            <strong className="text-purple-600"> Your Business</strong>
           </h1>
           <p
             className="text-xl text-gray-400 mb-8"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Succeeding in a rapidly changing world requires enterprise agility –
-            the ability to quickly develop and execute strategies through rapid
-            iterations.
+            At Makbyte, we believe in a future where AI transforms the way
+            businesses operate—making them more efficient, smarter, and better
+            equipped to meet challenges head-on. Our latest AI-based solutions
+            are here to revolutionize your business, making workflows smoother
+            and processes faster.
           </p>
         </div>
       </div>

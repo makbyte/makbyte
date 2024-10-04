@@ -7,20 +7,13 @@ const ApproachCard = ({ heading, description, icon, stepText }) => {
       data-aos="fade-right"
     >
       <div className="flex flex-col gap-4">
-        <div className="flex gap-6">
-          <div className="flex-shrink-0">{icon}</div>
-          <div>
-            <span aria-hidden="true" className="absolute inset-0" />
-            <p className="text-md tracking-wider text-gray-200 mb-2">
-              {stepText}
-            </p>
-            <span className="text-lg font-medium text-purple-600">
-              {heading}
-            </span>
-          </div>
-        </div>
-        <div className="">
-          <p className="text-lg text-gray-400">{description}</p>
+        {/* <div className="flex gap-6"> */}
+        <div className="flex-shrink-0">{icon}</div>
+        <div>
+          <span aria-hidden="true" className="absolute inset-0" />
+
+          <span className="text-lg font-medium text-gray-200">{heading}</span>
+          {/* </div> */}
         </div>
       </div>
     </div>

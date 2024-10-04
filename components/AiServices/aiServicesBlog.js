@@ -1,7 +1,6 @@
 import React from "react";
-import AIBlog from "@/public/images/aiBlog.jpg";
+import AIBlog from "@/public/images/aiBlog2.webp";
 import Image from "next/image";
-const value1 = "{ analytics + technology } powered by AI";
 
 const AiServicesBlog = () => {
   return (
@@ -24,28 +23,26 @@ const AiServicesBlog = () => {
       >
         <div className="max-[1024px]:text-center">
           <h3 className="h3 mb-3">
-            Enterprise Speed = <span className="text-purple-600">{value1}</span>
+            Empowering Organizations with AI:
+            <span className="text-purple-600"> Innovate, Simplify, Lead </span>
           </h3>
           <div>
             <p className="text-lg text-gray-400 mb-4">
-              <strong className="text-gray-200">Analytics</strong> is key to
-              uncovering market patterns, tracking performance, and providing
-              real-time insights for agile strategic shifts.
+              Makbyte is pioneering AI solutions that not only optimize your
+              current processes but also help you lead your industry.
             </p>
             <p className="text-lg text-gray-400 mb-4">
-              <strong className="text-gray-200">Technology</strong> enables the
-              adaptability required to scale and implement evolving strategies.
-              New business models, such as Direct-to-Consumer (D2C), digital
-              platforms, and Software-as-a-Service (SaaS), are increasingly
-              shaping high-growth enterprises.
+              Whether it’s empowering internal teams to derive insights from
+              customer data or automating your hiring workflows, we provide the
+              tools to help you succeed in the AI-driven future.
             </p>
-            <p className="text-lg text-gray-400 mb-4">
+            {/* <p className="text-lg text-gray-400 mb-4">
               The integration of technology and analytics often distinguishes
               leaders from the competition. When aligned, they create powerful
               competitive advantages. AI accelerates this process by driving
               data-informed strategic decisions and enabling rapid operational
               shifts.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

@@ -1,26 +1,28 @@
 import OurAiServicesCard from "@/components/AiServices/ui/ourServicesCard";
-import { MdComputer } from "react-icons/md";
-import { FaCircleNotch } from "react-icons/fa6";
-import { FaShapes } from "react-icons/fa";
+import { GiSatelliteCommunication } from "react-icons/gi";
+
+import { FaDatabase } from "react-icons/fa6";
+
+import { IoPeople } from "react-icons/io5";
 
 const cardsData = [
   {
-    icon: <MdComputer className="w-28 h-28 text-purple-600" />,
-    heading: "Collaboratively Build New Digital Business Models",
-    description:
-      "Develop always-connected platforms enhanced by AI-driven applications and software solutions.",
+    icon: <IoPeople className="w-28 h-28 text-purple-600" />,
+    heading: " Instant insights into customer/prospect interactions.",
+    // description:
+    //   "Develop always-connected platforms enhanced by AI-driven applications and software solutions.",
   },
   {
-    icon: <FaCircleNotch className="w-28 h-28 text-purple-600" />,
-    heading: "Redefine Workflows and Business Operations",
-    description:
-      "Boost efficiency and optimize processes using intelligent AI-powered agents.",
+    icon: <GiSatelliteCommunication className="w-28 h-28 text-purple-600" />,
+    heading: "Seamless integration with popular communication platforms.",
+    // description:
+    //   "Boost efficiency and optimize processes using intelligent AI-powered agents.",
   },
   {
-    icon: <FaShapes className="w-28 h-28 text-purple-600" />,
-    heading: "Facilitate Smarter Decision Making",
-    description:
-      "Enable faster, more informed decisions by leveraging high-quality data through AI engineering.",
+    icon: <FaDatabase className="w-28 h-28 text-purple-600" />,
+    heading: "Detailed analytics based on historical data.",
+    // description:
+    //   "Enable faster, more informed decisions by leveraging high-quality data through AI engineering.",
   },
 ];
 
@@ -30,14 +32,17 @@ export default function OurAiServices() {
     <div className=" py-24 sm:py-32 ">
       <div className="mx-auto max-w-4xl text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
-          Driving
-          <strong className="text-purple-600"> Enterprise Agility</strong> with
-          AI
+          AI Integrated Communication Tool:
+          <strong className="text-purple-600">
+            Your Team’s AI Ally for Deep Insights
+          </strong>
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-400">
-          At MAK Byte, our mission is to fast-track enterprise business
-          strategies by harnessing AI-driven digital and data capabilities. We
-          utilize AI to enhance enterprise agility in three core areas:
+          In today’s fast-paced business world, staying informed is key to
+          building relationships with customers and prospects. With our AI
+          Integrated Communication Tool, your in-house team can ask direct
+          questions about clients via communication tools like Slack or
+          Microsoft Teams.
         </p>
         {/* <div className="mt-10 flex items-center justify-center gap-x-6">
           <a

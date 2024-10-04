@@ -11,14 +11,14 @@ const AiServicesCollaborateWithUs = () => {
       >
         <div className="max-[1024px]:text-center">
           <h3 className="mb-3 font-bold text-4xl">
-            Let’s Create Together
-            <strong className="text-purple-600"> Enterprise Agility</strong>
+            Ready to Transform
+            <strong className="text-purple-600"> with AI</strong>
           </h3>
           <p className="text-lg text-gray-400 mb-4">
-            Innovations in AI are consistently introducing a fresh array of
-            opportunities. If you are thinking of incorporating AI agility into
-            your strategy and operational framework, we would be eager to
-            collaborate with you to develop a vision and action plan.
+            Makbyte is here to help you harness the power of AI to streamline
+            processes, improve decision-making, and deliver better outcomes for
+            your business. Get in touch with us today for a demo of our AI
+            solutions.
           </p>
         </div>
       </div>
