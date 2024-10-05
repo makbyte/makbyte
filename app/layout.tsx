@@ -49,9 +49,12 @@ export default function RootLayout({
       easing: "ease-out-sine",
     });
   });
-
+  const name = "{Byte}";
   return (
     <html lang="en">
+      <head>
+        <title>MAK Byte</title>
+      </head>
       <body
         className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}
       >

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { title } from "process";
 
 export default function ReusableCard({
@@ -8,6 +9,7 @@ export default function ReusableCard({
   headingStyle,
   mediaStyle,
   title,
+  btnLink,
 }) {
   return (
     <div
@@ -29,6 +31,14 @@ export default function ReusableCard({
         <p className="text-lg mt-3 text-gray-400 hover:text-gray-600">
           {description}
         </p>
+        {btnLink && (
+          <Link
+            className="btn-sm relative self-start text-white bg-purple-600 hover:bg-purple-700 mt-4 cursor-pointer"
+            href={btnLink}
+          >
+            Schedule Demo
+          </Link>
+        )}
       </div>
     </div>
   );

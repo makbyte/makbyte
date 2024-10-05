@@ -1,7 +1,7 @@
-import Link from 'next/link'
-import MobileMenu from './mobile-menu'
-import makByteLogo from '../../public/images/logo/Black logo - no background.png'
-import Image from 'next/image'
+import Link from "next/link";
+import MobileMenu from "./mobile-menu";
+import makByteLogo from "../../public/images/logo/Black logo - no background.png";
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -12,7 +12,12 @@ export default function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link href="/" className="block" aria-label="Makbyte">
-              <Image src={makByteLogo} alt='makByteLogo' width={150} height={150} />
+              <Image
+                src={makByteLogo}
+                alt="makByteLogo"
+                width={150}
+                height={150}
+              />
             </Link>
           </div>
 
@@ -22,14 +27,17 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  href="/#services"
+                  href="/ai-services"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  WHAT WE DO
+                  AI Services
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                <Link
+                  href="/contact"
+                  className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
+                >
                   Contact Us
                 </Link>
               </li>
@@ -37,9 +45,8 @@ export default function Header() {
           </nav>
 
           <MobileMenu />
-
         </div>
       </div>
     </header>
-  )
+  );
 }

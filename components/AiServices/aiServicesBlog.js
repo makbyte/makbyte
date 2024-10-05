@@ -23,7 +23,6 @@ const AiServicesBlog = () => {
       >
         <div className="max-[1024px]:text-center">
           <h3 className="h3 mb-3">
-            Empowering Organizations with AI:
             <span className="text-purple-600"> Innovate, Simplify, Lead </span>
           </h3>
           <div>

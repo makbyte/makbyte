@@ -43,7 +43,7 @@ const AiServicesCapabilities = () => {
     <div>
       <div className="text-center">
         <h3 className="mb-3 font-bold text-4xl">
-          AI Hiring Assistant:
+          AI Hiring Assistant <br />
           <strong className="text-purple-600">
             Smarter Recruitment Starts Here
           </strong>

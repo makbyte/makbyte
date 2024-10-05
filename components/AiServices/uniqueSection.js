@@ -4,6 +4,7 @@ import { HiOutlineLightBulb } from "react-icons/hi";
 import { FaEquals } from "react-icons/fa";
 import { MdYoutubeSearchedFor } from "react-icons/md";
 import { FaRocket } from "react-icons/fa6";
+import Link from "next/link";
 
 const distinctiveCardDetails = [
   {
@@ -12,6 +13,7 @@ const distinctiveCardDetails = [
     subTitle: "AI-Enhanced Organizational Insights",
     description:
       "Makbyte’s AI Integrated Communication Tool offers your team direct access to rich insights about customers and prospects, analyzing past communications to provide actionable intelligence.",
+    btnLink: "/contact",
   },
   {
     icon: <FaEquals className="w-20 h-20 text-purple-600" />,
@@ -19,6 +21,7 @@ const distinctiveCardDetails = [
     subTitle: "Streamline Recruitment with AI",
     description:
       "The AI Hiring Assistant automates resume sorting by skills, technologies, and experience, ensuring that you never miss the perfect candidate. With intelligent suggestions and sorting features, this tool optimizes your recruitment process, saving time and enhancing results.",
+    btnLink: "/contact",
   },
 ];
 
@@ -37,6 +40,7 @@ const DistinctiveSection = () => {
               heading={element.subTitle}
               description={element.description}
               title={element.title}
+              btnLink={element.btnLink}
               // cardStyle="items-center gap-4"
               mediaStyle="flex-col items-start"
             />

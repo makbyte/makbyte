@@ -25,7 +25,7 @@ const AiServicesMethodology = () => {
       <div className="text-center">
         <h2 className="mb-3 font-bold text-4xl text-gray-200 ">
           Transforming Customer Relationships{" "}
-          <strong className="text-purple-600"> AI-Driven </strong> withInsights
+          <strong className="text-purple-600"> AI-Driven </strong> with Insights
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-400">
           Understanding customer needs is crucial to building lasting

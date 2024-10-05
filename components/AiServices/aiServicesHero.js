@@ -1,12 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import aiHero from "@/public/images/Hero.webp";
+import aiHero from "@/public/images/Hero.jpg";
 
 export default function AiServicesHero() {
   return (
     // <div className="">
-    <div className="lg:flex md:gap-6 items-center ">
+    <div className="lg:flex mt-40 md:gap-6 items-center ">
       {/* Image */}
       {/* Content */}
       <div
@@ -14,20 +14,22 @@ export default function AiServicesHero() {
         data-aos="fade-right"
       >
         <div className="max-[1024px]:text-center">
-          <h1 className="mb-3 font-bold h1">
+          <h1 className="mb-6 font-bold h1">
             Unlock the Power of AI for
             <strong className="text-purple-600"> Your Business</strong>
           </h1>
           <p
-            className="text-xl text-gray-400 mb-8"
+            className="text-xl text-gray-400 lg:text-justify text-center mb-8"
             data-aos="fade-up"
             data-aos-delay="200"
           >
             At Makbyte, we believe in a future where AI transforms the way
-            businesses operate—making them more efficient, smarter, and better
-            equipped to meet challenges head-on. Our latest AI-based solutions
-            are here to revolutionize your business, making workflows smoother
-            and processes faster.
+            businesses operate-making them more efficient, smarter, and better
+            equipped to meet challenges head-on. Our cutting-edge AI-powered
+            solutions are designed to seamlessly integrate into your existing
+            infrastructure, driving automation, and unlocking new levels of
+            performance.Whether it’s streamlining workflows, improving
+            decision-making processes, or enhancing data accuracy.
           </p>
         </div>
       </div>

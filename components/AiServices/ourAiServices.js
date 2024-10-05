@@ -32,7 +32,7 @@ export default function OurAiServices() {
     <div className=" py-24 sm:py-32 ">
       <div className="mx-auto max-w-4xl text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
-          AI Integrated Communication Tool:
+          AI Integrated Communication Tool <br />
           <strong className="text-purple-600">
             Your Team’s AI Ally for Deep Insights
           </strong>
