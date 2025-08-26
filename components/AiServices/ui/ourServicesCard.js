@@ -4,7 +4,7 @@ const OurServicesCard = ({ icon, heading, description }) => {
   return (
     // <div className="mx-auto mt-10">
     <div
-      className="bg-gray-800 ring-gray-900 rounded-3xl p-8 ring-1 xl:p-10 h-full flex flex-col"
+      className="bg-gray-800 hover:bg-gray-700 transition-all ease-in-out duration-300 cursor-pointer ring-gray-900 rounded-3xl p-8 ring-1 xl:p-10 h-full flex flex-col"
       data-aos="fade-right"
     >
       {/* icon */}

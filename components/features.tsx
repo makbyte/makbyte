@@ -1,17 +1,19 @@
+import RotatingCarousal from "@/components/RotatingCarousel";
 export default function Features() {
-  const byte = '{ Byte }'
+  const byte = "{ Byte }";
   return (
-    <section >
+    <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className=" md:py-20">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Why work with <br className="sm:hidden"/>MAK { byte }</h2>
+            <h2 className="h2 mb-4">
+              Why work with <br className="sm:hidden" />
+              MAK {byte}
+            </h2>
           </div>
 
-          {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
+          {/* <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
 
-            {/* 1st item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
@@ -22,7 +24,6 @@ export default function Features() {
               <p className="text-lg text-gray-400 text-center">Our team comprises top-tier developers and consultants adept at leveraging the latest technologies and industry best practices.</p>
             </div>
 
-            {/* 2nd item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <circle className="fill-current text-purple-600" cx="32" cy="32" r="32" />
@@ -33,7 +34,6 @@ export default function Features() {
               <p className="text-lg text-gray-400 text-center">Every project undertaken by us is approached with a focus on customization, ensuring that the end product perfectly aligns with your business objectives.</p>
             </div>
 
-            {/* 3rd item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
             <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
@@ -47,7 +47,6 @@ export default function Features() {
               <p className="text-lg text-gray-400 text-center">We value collaboration and transparency, working closely with our clients throughout the development process to deliver solutions that exceed expectations.</p>
             </div>
 
-            {/* 4th item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
@@ -60,7 +59,6 @@ export default function Features() {
               <p className="text-lg text-gray-400 text-center">Innovation is at the core of our ethos. We prioritize quality in every aspect of our work, delivering solutions that are not just functional but also future-proof.</p>
             </div>
 
-            {/* 5th item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
             <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
@@ -74,7 +72,6 @@ export default function Features() {
               <p className="text-lg text-gray-400 text-center">With a diverse clientele, we cater to businesses worldwide, bringing our expertise to various industries and geographical regions.</p>
             </div>
 
-            {/* 6th item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
@@ -88,10 +85,10 @@ export default function Features() {
               <p className="text-lg text-gray-400 text-center">Beyond development, our commitment extends to providing comprehensive support and maintenance, ensuring your software remains efficient and up-to-date.</p>
             </div>
 
-          </div>
-
+          </div> */}
+          <RotatingCarousal />
         </div>
       </div>
     </section>
-  )
+  );
 }
