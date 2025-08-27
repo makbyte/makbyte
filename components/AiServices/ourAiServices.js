@@ -4,18 +4,30 @@ import OurServicesCard from "@/components/AiServices/ui/ourServicesCard";
 import { GiSatelliteCommunication } from "react-icons/gi";
 import { FaDatabase } from "react-icons/fa6";
 import { IoPeople } from "react-icons/io5";
-
+import AnimatedMarquee from "@/components/AiServices/ui/animatedMarquee";
 const cardsData = [
   {
-    icon: <IoPeople className="w-16 h-16 text-blue-400" />,
+    icon: <IoPeople className="w-16 h-16 text-purple-600" />,
     heading: "Instant insights into customer/prospect interactions.",
   },
   {
-    icon: <GiSatelliteCommunication className="w-16 h-16 text-blue-400" />,
+    icon: <GiSatelliteCommunication className="w-16 h-16 text-purple-600" />,
     heading: "Seamless integration with popular communication platforms.",
   },
   {
-    icon: <FaDatabase className="w-16 h-16 text-blue-400" />,
+    icon: <FaDatabase className="w-16 h-16 text-purple-600" />,
+    heading: "Detailed analytics based on historical data.",
+  },
+  {
+    icon: <IoPeople className="w-16 h-16 text-purple-600" />,
+    heading: "Instant insights into customer/prospect interactions.",
+  },
+  {
+    icon: <GiSatelliteCommunication className="w-16 h-16 text-purple-600" />,
+    heading: "Seamless integration with popular communication platforms.",
+  },
+  {
+    icon: <FaDatabase className="w-16 h-16 text-purple-600" />,
     heading: "Detailed analytics based on historical data.",
   },
 ];
@@ -32,7 +44,7 @@ export default function OurAiServices() {
       <div className="mx-auto max-w-4xl text-center relative z-20">
         <h2 className="text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
           AI Integrated Communication Tool <br />
-          <strong className="text-blue-600">
+          <strong className="text-purple-600">
             Your Team's AI Ally for Deep Insights
           </strong>
         </h2>
@@ -45,22 +57,18 @@ export default function OurAiServices() {
         </p>
       </div>
 
-      <div className="relative mt-16 ">
+      <AnimatedMarquee>
+        {cardsData.map((item, i) => (
+          <OurServicesCard key={i} icon={item.icon} heading={item.heading} />
+        ))}
+      </AnimatedMarquee>
+      {/* <div className="relative mt-16 ">
         <div className="animate-marquee flex gap-6">
-          {cardsData.map((item, i) => (
-            <OurServicesCard key={i} icon={item.icon} heading={item.heading} />
-          ))}
-          {cardsData.map((item, i) => (
-            <OurServicesCard
-              key={`dup-${i}`}
-              icon={item.icon}
-              heading={item.heading}
-            />
-          ))}
+      
         </div>
-      </div>
+      </div> */}
 
-      <style jsx>{`
+      {/* <style jsx>{`
         @keyframes marquee {
           0% {
             transform: translateX(0%);
@@ -77,7 +85,7 @@ export default function OurAiServices() {
         .animate-marquee:hover {
           animation-play-state: paused;
         }
-      `}</style>
+      `}</style> */}
     </div>
   );
 }
